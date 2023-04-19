@@ -1,9 +1,19 @@
-variable "prefix" {
+variable "app_name" {
   type        = string
-  description = "The prefix used for all resources in this example"
+  description = "App name"
 }
 
-variable "location" {
+variable "resource_group_location" {
   type        = string
-  description = "The Azure location where all resources in this example should be created"
+  description = "Resource group location"
+}
+
+variable "resource_group_name" {
+  type        = string
+  description = "Resource group name"
+}
+
+variable "service_plan_id" {
+  type        = string
+  description = "Service plan id"
 }
