@@ -1,4 +1,4 @@
-resource "azurerm_linux_web_app" "example" {
+resource "azurerm_linux_web_app" "app" {
   name                = var.app_name
   location            = var.resource_group_location
   resource_group_name = var.resource_group_name
